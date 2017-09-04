@@ -6,6 +6,7 @@ import { OtherComponent } from './other/other.component';
 import { AnotherComponent } from './other/another.component';
 import { DatabindingComponent } from './other/databinding/databinding.component';
 import { PropertyBindingComponent } from './other/databinding/property-binding.component';
+import { EventBindingComponent } from './other/databinding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PropertyBindingComponent } from './other/databinding/property-binding.c
     OtherComponent,
     AnotherComponent,
     DatabindingComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule
