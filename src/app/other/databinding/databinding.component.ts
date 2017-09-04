@@ -11,6 +11,10 @@ export class DatabindingComponent {
   stringInterpolation = 'This is string interpolation!';
   numberInterpolation = 2;
 
+  onClicked(value: string){
+      alert(value);
+  }
+
   onTest(){
     return true;
   }

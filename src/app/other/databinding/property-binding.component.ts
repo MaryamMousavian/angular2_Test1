@@ -6,6 +6,7 @@ import { Component, Input} from '@angular/core';
     {{result}}
   `,
   styles: []
+  // inputs:['result']
 })
 export class PropertyBindingComponent{
   @Input() result: number = 0;
